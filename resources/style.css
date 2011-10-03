@@ -30,11 +30,6 @@
   line-height: 24px;
 }
 
-.calendar-previous-month,
-.calendar-next-month {
-  background: static_url('arrows.png') no-repeat 0 0;
-}
-
 .calendar-previous-month.active {
   background-position: 0 -24px;
 }

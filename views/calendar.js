@@ -31,7 +31,7 @@ Calendar.CalendarView = SC.View.extend(
       layout: { top: 0, left: 0, width: 24 },
       classNames: 'calendar-previous-month',
       titleMinWidth: 0,
-      theme: '',
+      icon: static_url('images/previous.png'),
       action: function() { this.getPath('parentView.parentView').decrementMonth(); }
     }),
     monthLabel: SC.LabelView.extend({
@@ -50,7 +50,7 @@ Calendar.CalendarView = SC.View.extend(
       layout: { top: 0, right: 0, width: 24 },
       classNames: 'calendar-next-month',
       titleMinWidth: 0,
-      theme: '',
+      icon: static_url('images/next.png'),
       action: function() { this.getPath('parentView.parentView').incrementMonth(); }
     })
   }),
